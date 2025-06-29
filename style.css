@@ -1,9 +1,5 @@
 
-@font-face {
-  font-family: 'FantasyFont';
-  src: url('assets/fonts/FantasyFont.woff2') format('woff2'),
-       url('assets/fonts/FantasyFont.woff') format('woff');
-}
+
 
 * {
     margin: 0%;
@@ -19,7 +15,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: black;
-    font-family: 'FantasyFont', fantasy;
+   font-family: 'Butcherman', fantasy;
 }
 body::-webkit-scrollbar{
     display: none;
