@@ -15,7 +15,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: black;
-   font-family: 'Butcherman', fantasy;
+   font-family: 'Oswald', fantasy;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -76,17 +76,17 @@ nav {
 
             .first_h1 {
                 color: white;
-                font-weight: lighter;
+                /* font-weight: lighter; */
             }
 
             .second_h1 {
                 color: rgba(255, 255, 255, 0.685);
-                font-weight: lighter;
+                /* font-weight: lighter; */
             }
 
             .third_h1 {
                 color: rgba(255, 255, 255, 0.37);
-                font-weight: lighter;
+                /* font-weight: lighter; */
             }
 
         }
