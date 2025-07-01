@@ -7,13 +7,29 @@
     <title>NIKE</title>
     <link rel="icon" type="image/svg+xml" href="assets/logo.png" />
    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav><img loading="lazy" src="assets/logo.png" alt=""></nav>
+    <nav><img loading="lazy" src="assets/logo.png" alt=""><span class="material-symbols-outlined menu">
+dehaze
+</span> </nav>
+<div class="fullscreen-nav" id="fullscreenNav">
+  
+    <span class="material-symbols-outlined close " onclick="closeNav()">
+close
+</span>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
     <div class="page1 page">
         <video src="assets/video6.mp4" loading="lazy" loop autoplay muted>
         </video>
@@ -36,37 +52,19 @@
             </div>
         </div>
     </div>
-    <!-- <div class="page3">
-        <div class="shoe-display">
-            <div class="shoe-glass">
-                <img src="assets/white_shoes.png" loading="lazy" id="shoeImage" alt="Shoe">
-            </div>
-        </div>
-
-        <div class="color-picker">
-            <button class="color-btn orange" onclick="changeShoe('orange')"></button>
-            <button class="color-btn black-white" onclick="changeShoe('black_white')"></button>
-            <button class="color-btn brown" onclick="changeShoe('brown')"></button>
-            <button class="color-btn black" onclick="changeShoe('black')"></button>
-            <button class="color-btn white" onclick="changeShoe('white')"></button>
-            <button class="color-btn grey" onclick="changeShoe('grey')"></button>
-            <button class="color-btn red" onclick="changeShoe('red')"></button>
-            <button class="color-btn purple" onclick="changeShoe('purple')"></button>
-            <button class="color-btn blue" onclick="changeShoe('blue')"></button>
-        </div>
-    </div> -->
-    <div class="page4 page">
+    <div class="page3 page">
         <video src="assets/video2.mp4" loop muted autoplay></video>
         <div class="cover_2">
             <h1>Nike. Just Do It</h1>
         </div>
     </div>
-    <div class="page5 page">
+    <div class="page4 page">
         <img src="assets/bluecard.jpg" alt="">
         <img src="assets/redcard.jpg" alt="">
+        <div class="cover_img"></div>
     </div>
 
-    <div class="page6 page">
+    <div class="page5 page">
         <div class="cover_3">
             <div class="landing_texts_3">
 
@@ -76,10 +74,35 @@
             </div>
         </div>
     </div>
-    <div class="page7 page">
+    <div class="page6 page">
+        <video src="assets/video8.mp4" loop autoplay mute></video>
+        <div class="cover_video"></div>
+        <div class="cover_footer">
+            <ul>
+                <li>Resources</li>
+                <li>Find A Store</li>
+                <li>Product Advice</li>
+                <li>Feedback</li>
+            </ul>
+            <ul>
+                <li>Help</li>
+                <li>Order Status</li>
+                <li>Payment Options</li>
+                <li>Returns</li>
+            </ul>
+            <ul>
+                <li>Company</li>
+                <li>About Nike</li>
+                <li>Careers</li>
+                <li>Impact</li>
+            </ul>
+
+
+
+
+        </div>
         
-        <video src="/assets/video7.mp4" autoplay muted loop></video>
-        <video src="/assets/video1.mp4" autoplay muted loop></video>
+        
     </div>
     <script src="script.js"></script>
 
